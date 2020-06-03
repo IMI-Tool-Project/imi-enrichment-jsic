@@ -1,0 +1,37 @@
+{
+  "name": "imi-enrichment-jsic",
+  "version": "1.0.0",
+  "description": "日本標準産業分類のリコメンド",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "mkdir -p lib;node tools/csv2json.js data/FEK_download.utf8.csv > lib/jsic.json",
+    "browser": "rollup -c",
+    "start": "node bin/server.js 8080"
+  },
+  "bin": "bin/cli.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "imi"
+  ],
+  "author": "IMI Tool Project",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.0",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-json": "^4.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "node-fetch": "^2.6.0",
+    "papaparse": "^5.1.0",
+    "rollup": "^1.29.0"
+  }
+}
