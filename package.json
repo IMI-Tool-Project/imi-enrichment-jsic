@@ -30,7 +30,7 @@
     "@rollup/plugin-node-resolve": "^7.0.0",
     "chai": "^4.2.0",
     "mocha": "^6.2.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "papaparse": "^5.2.0",
     "rollup": "^1.29.0"
   },
