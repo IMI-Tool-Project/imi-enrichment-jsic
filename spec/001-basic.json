@@ -1,249 +1,253 @@
-[{
-  "name": "インターネットサービスプロバイダ",
-  "input": "インターネットサービスプロバイダ",
-  "output": [{
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4012",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G4012",
-        "表記": "アプリケーション・サービス・コンテンツ・プロバイダ",
-        "説明": "主としてインターネットを通じて，音楽，映像等を配信する事業を行う事業所であって，他に分類されないものをいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401"
+[
+  {
+    "name": "インターネットサービスプロバイダ",
+    "input": "インターネットサービスプロバイダ",
+    "output": [
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4012",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G4012",
+          "表記": "アプリケーション・サービス・コンテンツ・プロバイダ",
+          "説明": "主としてインターネットを通じて，音楽，映像等を配信する事業を行う事業所であって，他に分類されないものをいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401"
+        },
+        "score": 13
       },
-      "score": 13
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G",
-        "表記": "情報通信業",
-        "説明": "総　　　説\n　この大分類には，情報の伝達を行う事業所，情報の処理，提供などのサービスを行う事業所，インターネットに附随したサービスを提供する事業所及び伝達することを目的として情報の加工を行う事業所が分類される。\n　情報の伝達を行う事業所とは，電磁，非電磁を問わず，映像，音声，文字等の情報を伝達する事業所及び伝達するための手段の設置，運用を行う事業所をいう。\n　情報の処理，提供などのサービスを行う事業所とは，電子計算機のプログラムの作成を行う事業所，委託により電子計算機等を用いて情報の処理を行う事業所及び情報を収集・加工・蓄積し，顧客の求めに応じて提供する事業所をいう。\n　インターネットに附随したサービスを提供する事業所とは，インターネットを通じて，上記以外の通信業及び情報サービス業を行う事業所をいう。\n　情報の加工を行う事業所とは，新聞，雑誌，ラジオ，テレビジョン，映画などの媒体を通じて不特定多数の受け手を対象に大量に情報を伝達させるために，映像，音声，文字等の情報を加工する事業所をいう。\n\n　　　情報通信業と他産業との関係\n(1) 製造業との関係\n(ｱ) 主として新聞発行又は書籍等の出版を行う事業所は情報通信業とするが，主として新聞又は書籍等の印刷及びこれに関連した補助的業務を行う事業所は大分類Ｅ－製造業［15］に分類される。\n(ｲ) 情報記録物（新聞，書籍等の印刷物を除く）の原盤を制作する事業所は情報通信業とするが，自ら原盤の制作を行わず，情報記録物の大量複製のみを行う事業所は大分類Ｅ－製造業［3296］に分類される。\n(2) 運輸業との関係\n情報記録物，新聞，書籍等の運送を行う事業所は大分類Ｈ－運輸業，郵便業に分類される。\n(3) 卸売・小売業との関係\n情報記録物，新聞，書籍等を購入して販売する事業所は大分類Ｉ－卸売業，小売業に分類される。\n(4) サービス業との関係\n(ｱ) 情報記録物，書籍等を賃貸する事業所は大分類Ｋ－不動産業，物品賃貸業［709］に分類される。\n(ｲ) 主として依頼人のために広告に係る総合的なサービスを提供する事業所及び広告媒体のスペース又は時間を当該広告媒体企業と契約し，依頼人のために広告する事業所は大分類Ｌ－学術研究，専門・技術サービス業［7311］に分類される。\n(ｳ) 個人で詩歌，小説などの文芸作品の創作，文芸批評，評論などの専門的なサービスを提供する事業所は大分類Ｌ－学術研究，専門・技術サービス業［727］に分類される。\n(ｴ) 工業デザイン，クラフトデザイン，インテリアデザインなどの工業的，商業的デザインに関する専門的なサービスを提供する事業所は大分類Ｌ－学術研究，専門・技術サービス業［726］に分類される。"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G",
+          "表記": "情報通信業",
+          "説明": "総　　　説\n　この大分類には，情報の伝達を行う事業所，情報の処理，提供などのサービスを行う事業所，インターネットに附随したサービスを提供する事業所及び伝達することを目的として情報の加工を行う事業所が分類される。\n　情報の伝達を行う事業所とは，電磁，非電磁を問わず，映像，音声，文字等の情報を伝達する事業所及び伝達するための手段の設置，運用を行う事業所をいう。\n　情報の処理，提供などのサービスを行う事業所とは，電子計算機のプログラムの作成を行う事業所，委託により電子計算機等を用いて情報の処理を行う事業所及び情報を収集・加工・蓄積し，顧客の求めに応じて提供する事業所をいう。\n　インターネットに附随したサービスを提供する事業所とは，インターネットを通じて，上記以外の通信業及び情報サービス業を行う事業所をいう。\n　情報の加工を行う事業所とは，新聞，雑誌，ラジオ，テレビジョン，映画などの媒体を通じて不特定多数の受け手を対象に大量に情報を伝達させるために，映像，音声，文字等の情報を加工する事業所をいう。\n\n　　　情報通信業と他産業との関係\n(1) 製造業との関係\n(ｱ) 主として新聞発行又は書籍等の出版を行う事業所は情報通信業とするが，主として新聞又は書籍等の印刷及びこれに関連した補助的業務を行う事業所は大分類Ｅ－製造業［15］に分類される。\n(ｲ) 情報記録物（新聞，書籍等の印刷物を除く）の原盤を制作する事業所は情報通信業とするが，自ら原盤の制作を行わず，情報記録物の大量複製のみを行う事業所は大分類Ｅ－製造業［3296］に分類される。\n(2) 運輸業との関係\n情報記録物，新聞，書籍等の運送を行う事業所は大分類Ｈ－運輸業，郵便業に分類される。\n(3) 卸売・小売業との関係\n情報記録物，新聞，書籍等を購入して販売する事業所は大分類Ｉ－卸売業，小売業に分類される。\n(4) サービス業との関係\n(ｱ) 情報記録物，書籍等を賃貸する事業所は大分類Ｋ－不動産業，物品賃貸業［709］に分類される。\n(ｲ) 主として依頼人のために広告に係る総合的なサービスを提供する事業所及び広告媒体のスペース又は時間を当該広告媒体企業と契約し，依頼人のために広告する事業所は大分類Ｌ－学術研究，専門・技術サービス業［7311］に分類される。\n(ｳ) 個人で詩歌，小説などの文芸作品の創作，文芸批評，評論などの専門的なサービスを提供する事業所は大分類Ｌ－学術研究，専門・技術サービス業［727］に分類される。\n(ｴ) 工業デザイン，クラフトデザイン，インテリアデザインなどの工業的，商業的デザインに関する専門的なサービスを提供する事業所は大分類Ｌ－学術研究，専門・技術サービス業［726］に分類される。"
+        },
+        "score": 10
       },
-      "score": 10
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4000",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G4000",
-        "表記": "主として管理事務を行う本社等",
-        "説明": "主としてインターネット附随サービス業の事業所を統括する本社等として，自企業の経営を推進するための組織全体の管理統括業務，人事・人材育成，総務，財務・経理，法務，知的財産管理，企画，広報・宣伝，営業支援・特定顧客管理，調査・研究開発，生産・プロジェクト管理，支社・支店等の管理，不動産管理，情報システム管理，保有資機材の管理，契約，仕入・原材料購入，役務・資材調達等の現業以外の業務を行う事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G400"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4000",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G4000",
+          "表記": "主として管理事務を行う本社等",
+          "説明": "主としてインターネット附随サービス業の事業所を統括する本社等として，自企業の経営を推進するための組織全体の管理統括業務，人事・人材育成，総務，財務・経理，法務，知的財産管理，企画，広報・宣伝，営業支援・特定顧客管理，調査・研究開発，生産・プロジェクト管理，支社・支店等の管理，不動産管理，情報システム管理，保有資機材の管理，契約，仕入・原材料購入，役務・資材調達等の現業以外の業務を行う事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G400"
+        },
+        "score": 10
       },
-      "score": 10
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4013",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G4013",
-        "表記": "インターネット利用サポート業",
-        "説明": "主としてインターネットを通じて，インターネットを利用する上で必要なサポートサービスを提供する事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4013",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G4013",
+          "表記": "インターネット利用サポート業",
+          "説明": "主としてインターネットを通じて，インターネットを利用する上で必要なサポートサービスを提供する事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401"
+        },
+        "score": 10
       },
-      "score": 10
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4009",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G4009",
-        "表記": "その他の管理，補助的経済活動を行う事業所",
-        "説明": "主としてインターネット附随サービス業における活動を促進するため，同一企業の他事業所に対して，輸送，清掃，修理・整備，保安等の支援業務を提供する事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G400"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4009",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G4009",
+          "表記": "その他の管理，補助的経済活動を行う事業所",
+          "説明": "主としてインターネット附随サービス業における活動を促進するため，同一企業の他事業所に対して，輸送，清掃，修理・整備，保安等の支援業務を提供する事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G400"
+        },
+        "score": 9
       },
-      "score": 9
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G40",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G40",
-        "表記": "インターネット附随サービス業",
-        "説明": "総　　　説\n　この中分類には，インターネットを通じて，通信及び情報サービスに関する事業を行う事業所であって，他に分類されない事業所が分類される。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G40",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G40",
+          "表記": "インターネット附随サービス業",
+          "説明": "総　　　説\n　この中分類には，インターネットを通じて，通信及び情報サービスに関する事業を行う事業所であって，他に分類されない事業所が分類される。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G"
+        },
+        "score": 9
       },
-      "score": 9
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4011",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G4011",
-        "表記": "ポータルサイト・サーバ運営業",
-        "説明": "主としてインターネットを通じて，情報の提供や，サーバ等の機能を利用させるサービスを提供する事業所であって，他に分類されないものをいう。\n広告の提供を目的とするものや，サーバ等の機能を主として他の事業の目的のために利用させるものは，本分類には含まれない。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G4011",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G4011",
+          "表記": "ポータルサイト・サーバ運営業",
+          "説明": "主としてインターネットを通じて，情報の提供や，サーバ等の機能を利用させるサービスを提供する事業所であって，他に分類されないものをいう。\n広告の提供を目的とするものや，サーバ等の機能を主として他の事業の目的のために利用させるものは，本分類には含まれない。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401"
+        },
+        "score": 9
       },
-      "score": 9
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G400",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G400",
-        "表記": "管理，補助的経済活動を行う事業所（40インターネット附随サービス業）",
-        "説明": "",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G40"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G400",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G400",
+          "表記": "管理，補助的経済活動を行う事業所（40インターネット附随サービス業）",
+          "説明": "",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G40"
+        },
+        "score": 9
       },
-      "score": 9
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "G401",
-        "表記": "インターネット附随サービス業",
-        "説明": "",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G40"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G401",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "G401",
+          "表記": "インターネット附随サービス業",
+          "説明": "",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-G40"
+        },
+        "score": 9
       },
-      "score": 9
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-L7311",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "L7311",
-        "表記": "広告業",
-        "説明": "主として依頼人のために，広告に係る企画立案，マーケティング，コンテンツの作成，広告媒体の選択等，総合的なサービスを提供する事業所，新聞，雑誌，ラジオ，テレビ，インターネットその他の広告媒体のスペース又は時間を当該広告媒体企業と契約し，依頼人のために広告する事業所をいう。\n広告文案の作成，商業美術などの業務を行うが，広告媒体に広告しない事業所は大分類Ｇ－情報通信業［4151］に分類される。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-L731"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-L7311",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "L7311",
+          "表記": "広告業",
+          "説明": "主として依頼人のために，広告に係る企画立案，マーケティング，コンテンツの作成，広告媒体の選択等，総合的なサービスを提供する事業所，新聞，雑誌，ラジオ，テレビ，インターネットその他の広告媒体のスペース又は時間を当該広告媒体企業と契約し，依頼人のために広告する事業所をいう。\n広告文案の作成，商業美術などの業務を行うが，広告媒体に広告しない事業所は大分類Ｇ－情報通信業［4151］に分類される。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-L731"
+        },
+        "score": 9
+      }
+    ]
+  },
+  {
+    "name": "医療機器",
+    "input": "医療機器",
+    "output": [
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E27",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E27",
+          "表記": "業務用機械器具製造業",
+          "説明": "総　　　説\n　この中分類には，業務用及びサービスの生産に供される機械器具を製造する事業所が分類される。主な製品として事務用機械器具，サービス・娯楽用機械器具，計量器，測定器，分析機器及び試験機，測量機械器具，理化学機械，医療機械器具及び医療用品，光学機械器具及びレンズ，武器などがある。\n　主として電子測定装置，電気計測器を製造する事業所は中分類29－電気機械器具製造業［それぞれ296及び297］に，理化学用のガラス器具及び陶磁器を製造する事業所は中分類21－窯業・土石製品製造業［それぞれ211及び214］に分類される。\n　なお，民生用電気機械器具を製造する事業所は中分類29－電気機械器具製造業に，物の生産に供される機械器具を製造する事業所は中分類25－はん用機械器具製造業及び26－生産用機械器具製造業に，輸送用機械器具を製造する事業所は中分類31－輸送用機械器具製造業にそれぞれ分類される。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E"
+        },
+        "score": 3
       },
-      "score": 9
-    }
-  ]
-
-}, {
-  "name": "医療機器",
-  "input": "医療機器",
-  "output": [{
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E27",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E27",
-        "表記": "業務用機械器具製造業",
-        "説明": "総　　　説\n　この中分類には，業務用及びサービスの生産に供される機械器具を製造する事業所が分類される。主な製品として事務用機械器具，サービス・娯楽用機械器具，計量器，測定器，分析機器及び試験機，測量機械器具，理化学機械，医療機械器具及び医療用品，光学機械器具及びレンズ，武器などがある。\n　主として電子測定装置，電気計測器を製造する事業所は中分類29－電気機械器具製造業［それぞれ296及び297］に，理化学用のガラス器具及び陶磁器を製造する事業所は中分類21－窯業・土石製品製造業［それぞれ211及び214］に分類される。\n　なお，民生用電気機械器具を製造する事業所は中分類29－電気機械器具製造業に，物の生産に供される機械器具を製造する事業所は中分類25－はん用機械器具製造業及び26－生産用機械器具製造業に，輸送用機械器具を製造する事業所は中分類31－輸送用機械器具製造業にそれぞれ分類される。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2742",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2742",
+          "表記": "歯科用機械器具製造業",
+          "説明": "主として歯科診療施設用及び歯科技工所用の医療機械器具を製造する事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E274"
+        },
+        "score": 2
       },
-      "score": 3
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2742",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2742",
-        "表記": "歯科用機械器具製造業",
-        "説明": "主として歯科診療施設用及び歯科技工所用の医療機械器具を製造する事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E274"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2743",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2743",
+          "表記": "医療用品製造業（動物用医療機械器具を含む）",
+          "説明": "主として手術用品，外科用品，整形外科用品，放射線関連用品，眼科用品，耳鼻いんこう科用品，避妊用具などを製造する事業所をいう。また，動物用医療機械器具製造業も本分類に含む。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E274"
+        },
+        "score": 2
       },
-      "score": 2
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2743",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2743",
-        "表記": "医療用品製造業（動物用医療機械器具を含む）",
-        "説明": "主として手術用品，外科用品，整形外科用品，放射線関連用品，眼科用品，耳鼻いんこう科用品，避妊用具などを製造する事業所をいう。また，動物用医療機械器具製造業も本分類に含む。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E274"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2973",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2973",
+          "表記": "医療用計測器製造業",
+          "説明": "主として電気特性を利用した生体検査・診断用の各種の機器を製造する事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E297"
+        },
+        "score": 2
       },
-      "score": 2
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2973",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2973",
-        "表記": "医療用計測器製造業",
-        "説明": "主として電気特性を利用した生体検査・診断用の各種の機器を製造する事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E297"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-P8511",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "P8511",
+          "表記": "社会保険事業団体",
+          "説明": "公的年金，公的医療保険，公的介護保険，労働災害補償などの社会保険事業を行う事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-P851"
+        },
+        "score": 1
       },
-      "score": 2
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-P8511",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "P8511",
-        "表記": "社会保険事業団体",
-        "説明": "公的年金，公的医療保険，公的介護保険，労働災害補償などの社会保険事業を行う事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-P851"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2114",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2114",
+          "表記": "ガラス容器製造業",
+          "説明": "主としてガラス製の飲料容器，食料容器，調味料容器，化粧品容器などを製造する事業所をいう。\n主な製品は，ビール瓶，酒瓶，牛乳瓶，清涼飲料用瓶，滋養飲料用瓶，しょう油瓶，こしょう瓶，化粧用クリーム瓶などである。\nただし，食卓用及びちゅう房用のコップ，皿，鉢，バター入れ，湯沸しなどを製造する事業所は細分類2116に，理化学用及び医療用の耐酸瓶，アルコール瓶，試薬瓶などを製造する事業所は細分類2115に分類される。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E211"
+        },
+        "score": 1
       },
-      "score": 1
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2114",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2114",
-        "表記": "ガラス容器製造業",
-        "説明": "主としてガラス製の飲料容器，食料容器，調味料容器，化粧品容器などを製造する事業所をいう。\n主な製品は，ビール瓶，酒瓶，牛乳瓶，清涼飲料用瓶，滋養飲料用瓶，しょう油瓶，こしょう瓶，化粧用クリーム瓶などである。\nただし，食卓用及びちゅう房用のコップ，皿，鉢，バター入れ，湯沸しなどを製造する事業所は細分類2116に，理化学用及び医療用の耐酸瓶，アルコール瓶，試薬瓶などを製造する事業所は細分類2115に分類される。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E211"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2115",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2115",
+          "表記": "理化学用・医療用ガラス器具製造業",
+          "説明": "主として理化学及び医療・衛生用ガラス器具を製造する事業所をいう。\n主な製品は，フラスコ，ビーカー，シリンダ，標本瓶，培養皿，乳鉢，吸い飲み，洗浄用品，耐酸瓶，アルコール瓶，一般薬瓶，試薬瓶などである。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E211"
+        },
+        "score": 1
       },
-      "score": 1
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2115",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2115",
-        "表記": "理化学用・医療用ガラス器具製造業",
-        "説明": "主として理化学及び医療・衛生用ガラス器具を製造する事業所をいう。\n主な製品は，フラスコ，ビーカー，シリンダ，標本瓶，培養皿，乳鉢，吸い飲み，洗浄用品，耐酸瓶，アルコール瓶，一般薬瓶，試薬瓶などである。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E211"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2451",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2451",
+          "表記": "アルミニウム・同合金プレス製品製造業",
+          "説明": "主としてアルミニウム，アルミニウム合金の打抜きによって，瓶の口金，調理用・家庭用・医療用器具の製造，打抜き又はプレス加工された自動車車体あるいは機械部分品などを製造する事業所をいう。\n主として他から支給されてアルミニウム・同合金の打抜き及びプレス作業を行う事業所も本分類に含まれる。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E245"
+        },
+        "score": 1
       },
-      "score": 1
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2451",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2451",
-        "表記": "アルミニウム・同合金プレス製品製造業",
-        "説明": "主としてアルミニウム，アルミニウム合金の打抜きによって，瓶の口金，調理用・家庭用・医療用器具の製造，打抜き又はプレス加工された自動車車体あるいは機械部分品などを製造する事業所をいう。\n主として他から支給されてアルミニウム・同合金の打抜き及びプレス作業を行う事業所も本分類に含まれる。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E245"
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2452",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2452",
+          "表記": "金属プレス製品製造業（アルミニウム・同合金を除く）",
+          "説明": "主としてアルミニウム，アルミニウム合金以外の金属の打抜きによって瓶の口金，調理用・家庭用・医療用器具の製造，打抜き又はプレス加工された自動車車体あるいは機械部分品などを製造する事業所をいう。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E245"
+        },
+        "score": 1
       },
-      "score": 1
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2452",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2452",
-        "表記": "金属プレス製品製造業（アルミニウム・同合金を除く）",
-        "説明": "主としてアルミニウム，アルミニウム合金以外の金属の打抜きによって瓶の口金，調理用・家庭用・医療用器具の製造，打抜き又はプレス加工された自動車車体あるいは機械部分品などを製造する事業所をいう。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E245"
-      },
-      "score": 1
-    },
-    {
-      "value": {
-        "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2694",
-        "@type": "コード型",
-        "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
-        "識別値": "E2694",
-        "表記": "ロボット製造業",
-        "説明": "主としてマニプレータ，固定シ－ケンスロボット，可変シ－ケンスロボット，プレイバックロボット，数値制御ロボットなどの産業用ロボット及び福祉ロボット，医療ロボット，アミューズメントロボット，メンテナンスロボット，災害対応ロボットなどのサービス用ロボットを製造する事業所をいう。\nただし，自動立体倉庫装置を製造する事業所は中分類25［2533］に分類される。",
-        "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E269"
-      },
-      "score": 1
-    }
-  ]
-}]
+      {
+        "value": {
+          "@id": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E2694",
+          "@type": "コード型",
+          "コード種別": "http://data.e-stat.go.jp/lod/data/ontology/crossDomain/code/IndustryClassification2013ConceptScheme",
+          "識別値": "E2694",
+          "表記": "ロボット製造業",
+          "説明": "主としてマニプレータ，固定シ－ケンスロボット，可変シ－ケンスロボット，プレイバックロボット，数値制御ロボットなどの産業用ロボット及び福祉ロボット，医療ロボット，アミューズメントロボット，メンテナンスロボット，災害対応ロボットなどのサービス用ロボットを製造する事業所をいう。\nただし，自動立体倉庫装置を製造する事業所は中分類25［2533］に分類される。",
+          "上位コード": "http://data.e-stat.go.jp/lod/ontology/crossDomain/code/industryClassification2013-E269"
+        },
+        "score": 1
+      }
+    ]
+  }
+]
