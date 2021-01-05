@@ -54,9 +54,15 @@ describe('imi-enrichment-jsic', function() {
       });
     });
 
-    it('ルート要素の配列は score の降順でソートされていること', function() {
+    it('ルート要素の配列は score の降順>識別値の文字列長の降順>識別値の辞書順でソートされていること', function() {
       for (let i = 1; i < x.length; i++) {
-        expect(x[i - 1].score >= x[i].score).to.be.true;
+        if (x[i - 1].score !== x[i].score) {
+          expect(x[i - 1].score > x[i].score).to.be.true;
+        } else if (x[i - 1].value["識別値"].length !== x[i].value["識別値"].length) {
+          expect(x[i - 1].value["識別値"].length > x[i].value["識別値"].length).to.be.true;
+        } else {
+          expect(x[i - 1].value["識別値"] < x[i].value["識別値"]).to.be.true;
+        }
       }
     });
 

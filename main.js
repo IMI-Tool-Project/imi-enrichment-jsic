@@ -64,6 +64,11 @@ module.exports = function(description) {
     });
   });
 
-  const list = Object.values(result).sort((a, b) => b.score - a.score).slice(0, 10);
+  const list = Object.values(result).sort((a, b) => {
+    let sign = Math.sign(b.score - a.score);
+    if (sign === 0) sign = Math.sign(b.value["@id"].length - a.value["@id"].length);
+    if (sign === 0) sign = b.value["@id"] < a.value["@id"] ? 1 : -1;
+    return sign;
+  }).slice(0, 10);
   return JSON.parse(JSON.stringify(list));
 };
