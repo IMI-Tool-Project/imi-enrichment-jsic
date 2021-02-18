@@ -182,25 +182,22 @@
 
 # 利用者向け情報
 
-以下の手順はパッケージアーカイブ `imi-enrichment-jsic-1.0.0.tgz` を用いて実行します。
-
 ## インストール
 
 以下の手順でインストールします。
 
 ```
-$ npm install imi-enrichment-jsic-1.0.0.tgz
+$ npm install IMI-Tool-Project/imi-enrichment-jsic
 ```
 
 ## コマンドラインインターフェイス
 
-`imi-enrichment-jsic-1.0.0.tgz` にはコマンドラインインターフェイスが同梱されており、
 通常はインストールすると `imi-enrichment-jsic` コマンドが使用できるようになります。
 
 コマンドラインインターフェイスのファイルの実体は `bin/cli.js` です。
 
 ```
-$ npm install imi-enrichment-jsic-1.0.0.tgz
+$ npm install IMI-Tool-Project/imi-enrichment-jsic
 
 # ヘルプの表示
 $ imi-enrichment-jsic -h
@@ -219,12 +216,12 @@ $ imi-enrichment-jsic -s インターネットサービスプロバイダ > outp
 または `npx` を使って以下のようにインストールせずに実行することも可能です。
 
 ```
-$ npx imi-enrichment-jsic-1.0.0.tgz -s インターネットサービスプロバイダ
+$ npx IMI-Tool-Project/imi-enrichment-jsic -s インターネットサービスプロバイダ
 ```
 
 ## Web API
 
-`imi-enrichment-jsic-1.0.0.tgz` には Web API を提供するサーバプログラムが同梱されています。
+Web API を提供するサーバプログラムが同梱されています。
 
 ### サーバの起動方法
 
@@ -232,7 +229,7 @@ $ npx imi-enrichment-jsic-1.0.0.tgz -s インターネットサービスプロ�
 以下のように `bin/server.js` を実行することで起動できます。
 
 ```
-$ npm install imi-enrichment-jsic-1.0.0.tgz
+$ npm install IMI-Tool-Project/imi-enrichment-jsic
 $ node node_modules/imi-enrichment-jsic/bin/server.js
 Usage: node server.js [port number]
 
@@ -299,16 +296,13 @@ console.log(jsic("インターネットサービスプロバイダ"));
 
 # 開発者向け情報
 
-以下の手順はソースコードアーカイブ `imi-enrichment-jsic-1.0.0.src.tgz` を用いて実行します。
-
 ## 環境構築
 
 以下の手順で環境を構築します。
 
 ```
-$ mkdir imi-enrichment-jsic
+$ git clone https://github.com/IMI-Tool-Project/imi-enrichment-jsic.git
 $ cd imi-enrichment-jsic
-$ tar xvzf /tmp/imi-enrichment-jsic-1.0.0.src.tgz
 $ npm install
 ```
 
@@ -324,7 +318,7 @@ $ npm test
 
 ## ブラウザビルド(参考情報)
 
-以下の手順を実行するとブラウザで動作する Javascript `dist/imi-enrichment-jsic.js` が生成されます。
+以下の手順を実行するとブラウザで動作する JavaScript `dist/imi-enrichment-jsic.js` が生成されます。
 
 ```
 $ cd imi-enrichment-jsic
